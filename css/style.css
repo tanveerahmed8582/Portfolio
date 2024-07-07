@@ -112,6 +112,14 @@ li{
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid-three-column{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four-column{
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .btn{
 background: var(--gradientSupport);
 padding: 1.6rem 3.2rem;
@@ -306,4 +314,17 @@ color: var(--helper);
   border-color: transparent;
   border-bottom-color: var(--helper);
   top: -1.6rem;
+}
+
+
+/********************************Portfolio Section Start***************************/
+
+
+.section-portfolio{
+  background: var(--bg);
+  transition: all 0.7s linear;
+}
+
+.section-portfolio p{
+  max-width: 60rem;
 }
