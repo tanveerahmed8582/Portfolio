@@ -388,3 +388,21 @@ cursor: pointer;
 .p-image-not-active{
   display: none;
 }
+
+/*********************8 Work data section start ***********************/
+
+.section-work-data{
+  background: var(--gradientSupport);
+  text-align: center;
+  transition: all 0.7s linear;
+}
+
+.counter-number{
+  font-size: 4.8rem;
+  color: var(--white);
+}
+
+.section-work-data p{
+  color: var(--white);
+  text-transform: capitalize;
+}
