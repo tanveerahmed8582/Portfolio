@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>My Portfolio</title>
     <script defer src="index.js"></script>
   </head>
@@ -129,7 +133,7 @@
       </div>
 
       <div class="container grid grid-three-column portfolio-images">
-        <div class="img-overlay p-btn--1 p-image-not-active">
+        <div class="img-overlay p-btn--1cr">
           <img src="images/folio/shopping.png" alt="my-works" />
           <div class="overlay">
             <a
@@ -140,7 +144,7 @@
             >
           </div>
         </div>
-        <div class="img-overlay p-btn--3 p-image-not-active">
+        <div class="img-overlay p-btn--3cr">
           <img src="images/folio/dictionary.png" alt="my-works" />
           <div class="overlay">
             <a
@@ -151,7 +155,7 @@
             >
           </div>
         </div>
-        <div class="img-overlay p-btn--1 p-image-not-active">
+        <div class="img-overlay p-btn--1cr">
           <img src="images/folio/tic-tac-toe.png" alt="my-works" />
           <div class="overlay">
             <a
@@ -162,7 +166,7 @@
             >
           </div>
         </div>
-        <div class="img-overlay p-btn--1 p-btn--2 p-image-not-active">
+        <div class="img-overlay p-btn--1 p-btn--2cr">
           <img src="images/folio/shoe (1).png" alt="my-works" />
           <div class="overlay">
             <a
@@ -173,7 +177,7 @@
             >
           </div>
         </div>
-        <div class="img-overlay p-btn--2 p-image-not-active">
+        <div class="img-overlay p-btn--2cr">
           <img src="images/folio/generate random password.png" alt="my-works" />
           <div class="overlay">
             <a
@@ -184,7 +188,7 @@
             >
           </div>
         </div>
-        <div class="img-overlay p-btn--1 p-image-not-active">
+        <div class="img-overlay p-btn--1cr">
           <img src="images/folio/weather.png" alt="my-works" />
           <div class="overlay">
             <a
@@ -293,6 +297,52 @@
         </div>
       </div>
     </section>
+
+    <!-------------------- testimonial Section Start -------------------->
+
+    <section class="section section-testimonial">
+      <div class="container">
+        <h2 class="common-heading">Client Works</h2>
+      </div>
+
+      <!-------------------- Swiper Section Start -------------------->
+
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+          <!-- section start -->
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                Tanveer: You know sometimes when I'm talking, my words can't
+                keep up with my thoughts ... I wonder why we think faster than
+                we speak. Hobbes: Probably so we can think twice
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img src="images/client/client1.png" alt="client review" />
+              </figure>
+              <div class="client-data-datails">
+                <p>Malayka Bajaj</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-------------------- Javascript Section Start -------------------->
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -301,5 +351,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
